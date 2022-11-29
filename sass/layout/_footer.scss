@@ -1,5 +1,4 @@
 .page-footer {
-
     padding-top: 60px;
     padding-bottom: 60px;
     margin: 0 auto;
@@ -15,21 +14,24 @@
     align-items: baseline;
 }
 }
-.tablet-footer{
-    display: flex;
-    gap: 60px;
-}
+
 @media screen and (min-width:768px) and (max-width:1199px) {
     .tablet-footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: baseline;
+        display: flex;
+        gap: 60px;
+    }
+    .address{
+        text-align: center;
     }
 }
 @media screen and (min-width:1200px) {
     .tablet-footer {
-        justify-content: flex-start;
+        display: flex;
+        align-items: baseline;
         gap: 70px;
     }
 }

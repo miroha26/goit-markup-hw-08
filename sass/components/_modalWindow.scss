@@ -24,6 +24,12 @@
     @media screen and (max-width:767px) {
         width: 450px;
     }
+    @media screen and (max-height:660px) {
+        margin: 0 auto;
+    }
+    @media screen and (min-width:1200px) {
+        width: 528px;
+    }
     position: relative;
     // top: 50%;
     // left: 50%;
@@ -185,6 +191,7 @@ textarea:focus {
 .feedback__agreement--link {
     color: var(--accent-text-color);
     cursor: pointer;
+    display: inline;
 }
 
 .feedback__button {
